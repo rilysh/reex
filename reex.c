@@ -20,8 +20,6 @@
 #include <signal.h>
 #include <string.h>
 
-/** Comment out "AVX_ENABLE" if your CPU doesn't support this SIMD extension */
-#define AVX_ENABLE
 #include "reex.h"
 
 #ifdef PROG_VERSION

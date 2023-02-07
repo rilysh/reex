@@ -3,7 +3,7 @@ ifndef CC
 endif
 
 PROGRAM=reex
-LIBS=-pthread
+LIBS=-pthread -DAVX_ENABLE
 FLAGS=-msse -msse2 -mavx
 # OPTMZ=-O2
 # If your CPU don't support SSE or SSE2 or AVX, enabling optimizating,
