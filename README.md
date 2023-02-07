@@ -1,5 +1,5 @@
 ## reex
-A little CPU benchmarking tool
+A little CPU stresser tool
 
 ## How it works?
 reex uses CPU's SSE, SSE2, and AVX SIMD extensions set to calculate floating point numbers. Depending on your CPU, if it supports these three SIMD extensions, you can try it out!
