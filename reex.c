@@ -81,11 +81,6 @@ static double multi_thread_attach(void *fn, unsigned int iter)
             perror("pthread_join():");
     }
 
-    for (i = 0; i < onln_cores; i++) {
-        if (pthread_cancel(threads[i]) != 0)
-            perror("pthread_cancel():");
-    }
-
     end = clock();
     diff = (double)(end - start) / CLOCKS_PER_SEC;
 
